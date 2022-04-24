@@ -1,15 +1,15 @@
 const livros = [
     {
-      nome: 'Algoritmos para viver',
-      categoria: 'tecnologia',
-      paginas: 500,
+      nome: 'História da Pintura',
+      categoria: 'arte',
+      paginas: 400,
       recomenda: true,
       leu: true
     },
     {
-      nome: 'Algoritmos de destruição em massa',
-      categoria: 'tecnologia',
-      paginas: 300,
+      nome: 'Arte Comentada: Da Pré-História ao Pós-Moderno',
+      categoria: 'arte',
+      paginas: 196,
       recomenda: true,
       leu: true
     },
@@ -21,53 +21,53 @@ const livros = [
       leu: true
     },
     {
-      nome: 'O Hobbit',
-      categoria: 'fantasia',
-      paginas: 285,
+      nome: 'Como ser um Programador Melhor: um Manual Para Programadores que se Importam com Código',
+      categoria: 'tecnologia',
+      paginas: 284,
       recomenda: false,
       leu: false
     },
     {
-      nome: 'Senhor dos Aneis',
-      categoria: 'fantasia',
-      paginas: 326,
-      recomenda: false,
-      leu: false
+      nome: 'Amor Sustentável',
+      categoria: 'psicologia',
+      paginas: 246,
+      recomenda: true,
+      leu: true
     },
     {
-      nome: 'Torto Arado',
+      nome: 'O caderninho de desafios de Dash & Lily',
       categoria: 'romance',
-      paginas: 245,
+      paginas: 256,
       recomenda: true,
       leu: true
     },
     {
-      nome: 'Dororidade',
-      categoria: 'feminismo',
-      paginas: 98,
+      nome: 'Pride & Prejudice',
+      categoria: 'literatura inglesa',
+      paginas: 427,
       recomenda: true,
       leu: true
     },
     {
-      nome: 'Um exu em Nova York',
-      categoria: 'contos',
-      paginas: 120,
+      nome: 'A Seleção',
+      categoria: 'romance',
+      paginas: 361,
       recomenda: true,
       leu: true
     },
     {
-      nome: 'Para todas as pessoas intensas',
+      nome: 'Divergente',
       categoria: 'fantasia',
-      paginas: 150,
+      paginas: 487,
+      recomenda: true,
+      leu: true
+    },
+    {
+      nome: 'Wuthering Heights',
+      categoria: 'literatura inglesa',
+      paginas: 353,
       recomenda: false,
       leu: false
-    },
-    {
-      nome: 'Your name',
-      categoria: 'mangá',
-      paginas: 400,
-      recomenda: true,
-      leu: true
     }
   ]
   

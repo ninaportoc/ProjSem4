@@ -1,12 +1,8 @@
-const livros = require('./database')
 const read = require('readline-sync')
+const buscarLivros = require('./controllers/buscarLivros');
+const listarLivrosOrdenados = require('./controllers/listarLivrosOrdenados');
 
-
-
-
-console.log(livros)
-
-const resposta = read.question(`
+const resposta = read.question (`
 ========== Menu ==========
 1 - CATEGORIA: Buscar livro por categoria
 2 - ORDENAR: Ordenar livros por quantidade de página
@@ -18,4 +14,13 @@ const resposta = read.question(`
 Digite um número[1-5]
 `)
 
-console.log(resposta)
+switch (resposta) {
+    case '1':
+        buscarLivros()
+        break
+    case '2':
+        listarLivrosOrdenados()
+    default:
+        console.log('fim do algoritmo')
+        break
+}
