@@ -11,16 +11,6 @@ Métodos de iteração: sort, map, reduce, filter e find
 Projeto integrador I
 
 
-Chamada, apresentação das monitoras e acordos
-video chamada
-
-Usar as reações do zoom e levantar a mão para sinalizar que gostaria de falar
-Enviar as dúvidas no chat
-Manter o microfone desligado quando outras pessoas estiverem falando
-Manter a câmera ligada o máximo possível
-Momento mão no código, momento de olho na tela
-image
-
 🚀 SIstema de gerenciamento de livros
 E aeeee! Este é um repositório consolidando os nossos estudos das últimas 3 semanas de lógica aplicada com javascript.
 
@@ -60,6 +50,7 @@ Arquitetura
    |- 📄 .gitignore
    |- 📄 package.json  
    |- 📄 package-lock.json
+   
 Requisitos
  buscarLivros Deverá ser possível buscar livros pela categoria
  listarLivrosOrdenados Deverá retornar todos os livros ordenados de forma crescente por quantidade de páginas.
